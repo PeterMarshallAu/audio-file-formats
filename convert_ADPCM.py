@@ -122,7 +122,7 @@ def convert_packet(data_in, valpred, index):
 
 # Read the data chunk of a WAV file, decompressing each packet
 # and writing output.
-# The input file must already by positioned at the beginning
+# The input file must already be positioned at the beginning
 # of the data chunk.
 def convert_file(file_in, file_out, data_in_len, block_align):
     assert data_in_len > 0 and block_align > 0
